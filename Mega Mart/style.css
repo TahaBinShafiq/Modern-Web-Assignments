@@ -1,0 +1,135 @@
+h1 {
+    background-color: aliceblue;
+    border-bottom: 2px solid rgb(73, 73, 207);
+}
+
+h4 {
+    color: gray;
+}
+
+.menu-list {
+    background-color: steelblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar-sec {
+    background-color: burlywood;
+}
+
+.search-bar-sec input {
+    outline-color: rgb(255, 115, 0);
+}
+
+.search-bar-sec #submit {
+    background-color: rgb(255, 115, 0);
+    border: 2px solid orangered;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.offer-para {
+    background-color: green;
+    color: aliceblue;
+}
+
+table {
+    border: 2px solid green;
+}
+
+.table tr {
+    border: 1px solid rgb(52, 205, 52);
+}
+
+.first-td {
+    background-color: rgb(3, 180, 3);
+    color: white;
+    border: 2px solid rgb(52, 205, 52);
+}
+
+.table,
+th {
+    background-color: rgb(2, 156, 2);
+    color: white;
+}
+
+.table tr,
+td {
+    border: 2px solid rgb(52, 205, 52);
+}
+
+.table>tr,
+button {
+    background-color: green;
+    color: white;
+    border: 2px solid green;
+}
+
+.tr th {
+    border: 2px solid green;
+}
+
+.first-form fieldset {
+    border: 2px solid purple;
+}
+
+.first-form legend,
+#submit-2nd {
+    background-color: purple;
+    color: white;
+    border: 1px solid purple;
+}
+
+.second-table {
+    border: 2px solid red;
+}
+
+.second-td {
+    border: 2px solid red;
+}
+
+.second-table th {
+    background-color: red;
+    color: white;
+}
+
+.second-form fieldset {
+    border: 2px solid gray;
+
+}
+
+.second-form input {
+    outline-color: aqua;
+}
+
+.third-table {
+    border: 2px solid gainsboro;
+}
+
+.third-table td {
+    border: 2px solid gray;
+}
+
+.third-table th {
+    color: black;
+    background-color: white;
+    border: 2px solid gray;
+}
+.address{
+    background-color: rgb(14, 14, 85);
+    color: white;
+}
+
+.address-2 {
+    background-color: rgb(14, 14, 85);
+    color: white;
+}
+
+.last-item{
+    color: white;
+}

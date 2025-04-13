@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega-Mart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 >MegaMart</h1>
+    <h4 class="">Your Complete Shopping Destination</h4>
+    <ul class="menu-list">
+        <li><a href="">Home</a></li>
+        <li><a href="">Electronics</a></li>
+        <li><a href="">Fashion</a></li>
+        <li><a href="">Books</a></li>
+        <li><a href="">Cart</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+    <div class="search-bar-sec">
+    <h3>Product Search</h3>
+    <form action="">
+        <input type="search" name="search" placeholder="search over 10,000 product" id="">
+        <input type="submit" name="search" value="Search" id="submit">
+    </form>
+    </div>
+    <h3>Featured Products</h3>
+    <table border="2" width="1000px" style="text-align: center;">
+        <tr>
+           <td class="first-td" colspan="5">Today's Special Offers</td>
+        </tr>
+        <tr class="lines">
+            <th>Product</th>
+            <th>Discription</th>
+            <th>Price</th>
+            <th>Stock</th>
+            <th>Action</th>
+        </tr>
+        <tr class="lines">
+            <td><img src="https://t3.ftcdn.net/jpg/00/91/07/82/360_F_91078252_i7cx2uJzDzgoJGDdUAHtVAcpjugVauX9.jpg"
+                    height="70px" width="70px" alt="Headphones"><br>
+                <br>
+                <strong>Wireless Headphones </strong>
+            </td>
+            <td style="text-align: left;">Premium noise-cancelling Bluetooth headphones
+                <ul style="text-align: left;">
+                    <li>40mm drivers</li>
+                    <li>30-hour battery</li>
+                    <li>IPX4 waterprof</li>
+                </ul>
+            </td>
+            <td>
+                <del>199.99</del><br>
+                <br>
+                <ins>$149.99</ins>
+            </td>
+            <td>In Stock</td>
+            <td><button>Add to cart</button><br>
+                Available quantities: 15
+            </td>
+        </tr>
+        <tr>
+            <td colspan="5">
+                <hr>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/25/9360203/1.jpg?2994"
+                    height="100px" width="100px" alt="Smart Watch"><br>
+                <strong>Smart Watch Pro</strong>
+            </td>
+            <td style="text-align: left;">Advanced fitness tracking smartwatch
+                <ol style="text-align: left;">
+                    <li>Heart rate monitor</li>
+                    <li>GPS tracking</li>
+                    <li>Water resistant</li>
+                </ol>
+            </td>
+            <td>89.99</td>
+            <td>Low Stock</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+    </table>
+
+    <h3>Create New Account</h3>
+
+    <form action="" class="first-form">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">First Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="lastname">Last Name:</label>
+            <input type="text" name="name" id="lastname" required>
+
+            <label for="date">Date of Birth:</label>
+            <input type="date" name="date" id="date">
+
+            <label for="">Gender:</label>
+            <label for="male">Male:</label>
+            <input type="radio" name="Gender" id="male">
+
+            <label for="female">Female:</label>
+            <input type="radio" name="Gender" id="female">
+        </fieldset>
+
+        <fieldset>
+            <legend>Account Details</legend>
+            <label for="email">Email:</label>
+            <input type="email" name="male" id="email">
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+
+            <label for="number">Phone Number:</label>
+            <input type="number" name="number" id="number">
+
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="checkbox" name="checkbox" id="subscribe">
+        </fieldset>
+
+        <fieldset>
+            <legend>Shipping Address</legend>
+            <label for="address">Street Address:</label>
+            <textarea name="textarea" id="address"></textarea>
+
+            <label for="country">Country:</label>
+            <select name="Country" id="country">
+                <option value="" disabled selected>-- Select Country --</option>
+                <option value="">Pakistan</option>
+                <option value="">United State</option>
+                <option value="">United Kingdom</option>
+                <option value="">Canada</option>
+            </select>
+            <label for="zip">Zip Code:</label>
+            <input type="text" name="zip" id="zip">
+        </fieldset>
+
+        <input type="submit" value="Creat Account" name="" id="submit-2nd">
+        <input type="submit" value="Clear Form" name="" id="">
+    </form>
+    <br>
+    <br>
+    <table border="2" width="600" class="second-table">
+        <tr>
+            <th>Feature</th>
+            <th>Basic Model</th>
+            <th>Pro Model</th>
+            <th>Premium Model</th>
+        </tr>
+        <tr>
+            <th style="background-color: white; color: black;">Battery Life</th>
+            <td class="second-td">8 hours</td>
+            <td class="second-td">12 hours</td>
+            <td class="second-td">24 hours</td>
+        </tr>
+        <tr>
+            <th style="background-color: white; color: black;">Water Resistance</th>
+            <td class="second-td">IPX4</td>
+            <td class="second-td">IPX7</td>
+            <td class="second-td">IP68</td>
+        </tr>
+        <tr>
+            <th style="background-color: white; color: black;">Warranty</th>
+            <td class="second-td">1 year</td>
+            <td class="second-td" colspan="2">2 year</td>
+        </tr>
+        <tr>
+            <td class="second-td" colspan="4" style="background-color: rgb(253, 192, 192);">* All prices include VAT</td>
+        </tr>
+    </table>
+
+    <h2>Checkout Proccess</h2>
+    <form action="" class="second-form">
+        <fieldset>
+            <legend>Payment Information</legend>
+            <label for="cardtype">Card Type:</label>
+            <input type="radio" name="type" id="visa">
+
+            <label for="visa">Visa:</label>
+            <input type="radio" name="type" id="mastercard">
+
+            <label for="mastercard">Master Card:</label>
+            <input type="radio" name="type" id="american-experess">
+            <label for="american-experess">American Express</label><br>
+
+            <label for="cardnumber">Card Number:</label>
+            <input type="text" name="cardnumber" id="cardnumber">
+
+            <label for="expirydate">Expiry Date:</label>
+            <input type="date" name="expirydate" id="expirydate">
+        </fieldset>
+
+        <fieldset>
+            <legend>Order Summary</legend>
+            <table border="1" class="third-table">
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Wireless Headphones</td>
+                    <td>2</td>
+                    <td>$299.98</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>-</td>
+                    <td>$15.00</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Total:</th>
+                    <td>$314.98</td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <input type="submit" value="Complete Purchase" name="" id="">
+    </form>
+
+    <h2>Product Video</h2>
+    <video src="Video.mp4" controls height="250px" width="400px"></video>
+    <h2>Product Audio Discription</h2>
+    <audio src="Audio.mp3" loop controls></audio>
+    <div class="address">
+    <h2>Contact Us</h2>
+    <address>
+        <p>Email: <a href="mailto:support@megamart.com">support@megamart.com</a></p>
+        <p>Phone: <a href="tel:+1 (123) 456-7890">+1 (123) 456-7890</a></p>
+        <p>Adress: 123 Commerce Street <br>
+            New York, NY 10001</p>
+    </address>
+    </div>
+
+    <p>Here is our Location</p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.7368232577724!2d67.06160752210901!3d24.88124454926758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33eebb56aaaab%3A0x27ab04809ef5020a!2sSaylani%20Welfare%20International%20Trust%20Head%20Office.!5e1!3m2!1sen!2s!4v1743194188408!5m2!1sen!2s"
+        width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <p>Checkout the latest video</p>
+        <iframe width="500" height="315" src="https://www.youtube.com/embed/zofMnllkVfI?si=3g6-mXdZEr42WYEK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="address-2">
+        <h3>Quick Links</h3>
+        <ul>
+            <li><a class="last-item" href="">Terms of service</a></li>
+            <li><a class="last-item" href="">Privacy Policy</a></li>
+            <li><a class="last-item" href="">Return Policy</a></li>
+        </ul>
+
+        <p>&#169 2023 MegaMart. All rights reserved.</p>
+        <p>Folow us on: <a class="last-item" href="index.html">Social Media</a></p>
+        </div>
+</body>
+
+</html>

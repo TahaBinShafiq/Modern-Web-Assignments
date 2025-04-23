@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(33, 33, 33);
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    padding: 0px 10px;
+}
+
+h1 {
+    color: white;
+    font-family: "Playwrite AU SA", cursive;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+li {
+    color: white;
+    cursor: pointer;
+    font-family: "Playwrite AU SA", cursive;
+    font-size: small;
+
+}
+
+li:hover{
+    border-bottom: 1px solid white;
+    color: gainsboro;
+}
+
+button{
+    height: 35px;
+    width: 90px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Playwrite AU SA", cursive;
+
+}
+
+
+button:hover{
+    background-color: rgb(250, 96, 39);
+    transition: 1s ease-out all;
+    transform: scale(1.1);
+
+}
+
+.hero-sec {
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1558985040-ed4d5029dd50?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzODkxNjg&ixlib=rb-1.2.1&q=80&quot');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-h1 {
+    color: white;
+    margin: 0px;
+    font-size: 80px;
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: 1000px;
+}
+
+.sec-2 {
+    padding: 30px;
+}
+
+.sec-2 > p{
+    font-family: "Playwrite AU SA", cursive;
+    font-size: 13px;
+}
+
+.sec-3 {
+    background-image: url('https://images.unsplash.com/photo-1610128114197-485d933885c5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA2Nzc&ixlib=rb-1.2.1&q=80&quot');
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-4 {
+    background-image: url('https://images.unsplash.com/photo-1562095241-8c6714fd4178?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA5OTg&ixlib=rb-1.2.1&q=80');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-5{
+    background-image: url('https://images.unsplash.com/photo-1543722530-d2c3201371e7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTExOTg&ixlib=rb-1.2.1&q=80&quot');
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.footer p{
+    color: white;
+    font-family: "Playwrite AU SA", cursive;
+
+} 
+
+.footer > div{
+    color: white;
+    font-family: "Playwrite AU SA", cursive;
+    font-size: 9px;
+
+
+
+}
